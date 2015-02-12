@@ -1,5 +1,3 @@
-// http://fr.slideshare.net/paulk_asert/awesome-groovy
-
 //(1..100).each{println "${it % 3 ? '' : 'Fizz'}${it % 5 ? '' : 'Buzz'}" ?: it}
 //(1..100).each{println "${it%3?'':'Fizz'}${it%5?'':'Buzz'}"?:it}
 //(1..100).each{println((it%3?'':'Fizz')+(it%5?'':'Buzz')?:it)} //http://java.dzone.com/articles/fizzbuzz-without-ifs-90
@@ -7,6 +5,7 @@
 //https://www.accelebrate.com/blog/call-pogo-name/
 
 /*
+import groovy.transform.Canonical
 @Canonical
 class GroovyTask {
     String name
